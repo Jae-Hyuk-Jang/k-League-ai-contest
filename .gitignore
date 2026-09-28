@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Competition data (distributed by DACON, not redistributed here)
+data/
+
+# Training artifacts and predictions (regenerate with train.py / inference.py)
+weights/
+output/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# Logs
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
